@@ -1,0 +1,63 @@
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  /* background-color: green; */
+  background-size: cover;
+  background-position: center;
+  flex-grow: 0.8; /* portion of the container's height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden; /* Ensure the image doesn't overflow */
+}
+
+.bold-line {
+  border: 2px solid #000; /* You can change the color here */
+  margin: -20px auto 20px auto; /* Adjust the margin as needed */
+  width: 6em;
+}
+
+.logo {
+  width: 100px; /* Adjust the logo size as needed */
+  height: auto;
+}
+.scroll-to-bottom-button {
+  position: absolute;
+  left: 50%;
+  top: 90%;
+}
+.button-container {
+  position: absolute;
+  bottom: 2 em; /* Adjust this value for vertical position */
+}
+
+.arrow-button {
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 5px;
+}
+.main-content {
+  flex-grow: 0.5; /* Half of the container's height */
+  /* Add your main content styles here */
+}
+
+.footer {
+  background-color: #ffffff; /* Set your footer background color */
+  padding: 10px;
+  text-align: left;
+}
+
+.footer-line {
+  border: none;
+  border-top: 3px solid #333; /* Set your line color */
+}
+
+.copyright {
+  font-size: 14px;
+  color: #333; /* Set your text color */
+}
